@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dheeraj — Portfolio</title>
+  <meta name="description" content="Portfolio of Dheeraj, BTech student and developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">Dheeraj<span>.</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <span class="badge">BTech · Computer Science</span>
+      <h1>Hi, I'm <span class="hl">Dheeraj</span>.<br />I build things for the web.</h1>
+      <p class="lead">An engineering student who enjoys solving problems with code, from responsive front ends to the APIs and automations behind them.</p>
+      <div class="actions">
+        <a href="#projects" class="btn primary">See projects</a>
+        <a href="#contact" class="btn outline">Say hello</a>
+      </div>
+    </section>
+
+    <section id="about" class="section wrap">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>A bit about me</p>
+      </div>
+      <div class="about">
+        <div class="about-text">
+          <p>I'm a BTech student who got hooked on programming through small side projects and never stopped. I enjoy the full journey of building software — planning a feature, writing clean code, and seeing real people use it.</p>
+          <p>Lately I've been exploring workflow automation and cloud deployment alongside web development. I'm looking for internships and collaborative projects where I can learn fast and contribute.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>10+</strong><span>Projects built</span></div>
+          <div class="stat"><strong>3</strong><span>Hackathons</span></div>
+          <div class="stat"><strong>∞</strong><span>Curiosity</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section wrap">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools I work with</p>
+      </div>
+      <div class="skills">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul><li>C / C++</li><li>Java</li><li>Python</li><li>JavaScript</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3>Web</h3>
+          <ul><li>HTML &amp; CSS</li><li>React</li><li>Node.js</li><li>Express</li><li>REST APIs</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3>Data &amp; Cloud</h3>
+          <ul><li>MySQL</li><li>MongoDB</li><li>Render</li><li>Docker basics</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3>Workflow</h3>
+          <ul><li>Git &amp; GitHub</li><li>n8n automation</li><li>VS Code</li><li>Linux</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section wrap">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Selected work</p>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <div class="project-top"><span class="tag">Automation</span></div>
+          <h3>Deploy Alert Bot</h3>
+          <p>An n8n workflow that checks deployment status on Render and posts live/failed alerts to Discord automatically.</p>
+          <div class="stack">n8n · Render API · Discord</div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="tag">Web App</span></div>
+          <h3>Campus Notes Hub</h3>
+          <p>A place for students to upload, search and upvote lecture notes, organised by branch and semester.</p>
+          <div class="stack">React · Node.js · MongoDB</div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="tag">Tool</span></div>
+          <h3>Expense Splitter</h3>
+          <p>Split shared costs with friends and see who owes whom, with a simple settle-up summary.</p>
+          <div class="stack">JavaScript · HTML · CSS</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section wrap">
+      <div class="contact">
+        <h2>Let's work together</h2>
+        <p>Have an internship, project or idea in mind? I'd love to hear about it.</p>
+        <div class="actions center">
+          <a class="btn primary" href="mailto:your.email@example.com">Email me</a>
+          <a class="btn outline light" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn outline light" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">© 2026 Dheeraj · Made with HTML &amp; CSS</footer>
+</body>
+</html>
